@@ -1,30 +1,73 @@
-# Physical-Verification-Using-SKY130
+# Physical Verification Using SKY130
 
-This repository contains all the steps performed in 5-day Advanced-Physica-Design-using-openLANE/Sky130 workshop. This workshop is focused in complete RTL to GDSII flow using openLANE flow which is open source flow. In this workshop, PICORV32A RISC V core design is used.
+This repository contains all the steps performed in 5-day Physical Verification Using SKY130 workshop. In this workshop, we primarily focus in the process of Physical verification like DRC(Design Rule Check) and LVS(Layout vs Schematic) check using sky130 PDK. All the lab exercises are performed in VSD online platform. 
+
 
 # Table of Contents
 
-- [Day 1 - Exploring Open-source Tools, OpenLANE Flow and Sky130 Pdk](#day-1---exploring-open-source-tools--openlane-flow-and-sky130-pdk)
-  * [Open source PDK structure](#open-source-pdk-structure)
-  * [Initalizing OpenLANE](#initalizing-openlane)
-  * [Design synthesis](#design-synthesis)
-- [Day 2 Floorplan and Introduction to library cell](#day-2-floorplan-and-introduction-to-library-cell)
-  * [Floorplan](#floorplan)
-  * [Floorplan using OpenLANE](#floorplan-using-openlane)
-  * [Floorplan Layout in Magic](#floorplan-layout-in-magic)
-  * [Placement](#placement)
-  * [Placement using OpenLANE](#placement-using-openlane)
-  * [Placement Layout in Magic](#placement-layout-in-magic)
-- [Day 3 Library Cell Design in Magic Layout and Ngspice characterization](#day-3-library-cell-design-in-magic-layout-and-ngspice-characterization)
-  * [Magic to View CMOS Inverter Layout](#magic-to-view-cmos-inverter-layout)
-  * [SPICE netlist extraction from standard cell layout](#spice-netlist-extraction-from-standard-cell-layout)
-  * [NGSPICE for Transient Analysis](#ngspice-for-transient-analysis)
-- [Day 4 Pre-Layout Timing Analysis and Importance of Good Clock Tree](#day-4-pre-layout-timing-analysis-and-importance-of-good-clock-tree)
-  * [Magic Layout to Standard Cell LEF](#magic-layout-to-standard-cell-lef)
-  * [OpenSTA for Timing Analysis](#opensta-for-timing-analysis)
-  * [TritonCTS for Clock Tree Synthesis](#tritoncts-for-clock-tree-synthesis)
-- [Day 5  Final steps for RTL2GDS](#day-5--final-steps-for-rtl2gds)
-  * [Generation of Power Distribution network](#generation-of-power-distribution-network)
-  * [Generating SPEF file](#generating-spef-file)
+- [Day 1 - Introduction to Skywater SKY130](#day-1---introduction-to-skywater-sky130)
+  * [Introduction](#introduction)
+  * [Software Tools and Setup](#software-tools-and-setup)
+  * [DRC and LVS Overview](#drc-and-lvs-overview)
+- [Day 2 Introduction to DRC and LVS](#day-2-introduction-to-drc-and-lvs)
+  * [GDS](#gds)
+  * [Basic Extraction](#basic-extraction)
+  * [DRC, LVS and XOR](#drc-,-lvs-and-xor)
+- [Day 3 Front-end and Back-end DRC](#day-3-front---end-and-back---end-drc)
+  * [DRC Rules](#drc-rules)
+    * [Width Rule and Spacing Rule](#width-rule-and-spacing-rule)
+    * [Wide Spacing Rule and Notch Rule](#wide-spacing-rule-and-notch-rule)
+    * [Vias](#vias)
+    * [Minimum Area Rule and Minimum Hole Rule](#minimum-area-rule-and-minimum-hole-rule)
+    * [Wells and Deep N-well](#wells-and-deep-N---well)
+    * [Derived Layers](#derived-layers)
+    * [Paramaterized and PDK devices](#paramaterized-and-pdk-devices)
+    * [Angle Error and Overlap Rule](#angle-error-and-overlap-rule)
+    * [Unimplemented Rules](#unimplemented-rules)
+    * [Latch-up and antenna Rule](#latch---up-and-antenna-rule)
+    * [Density Rules](#density-rules)
+- [Day 4 Understanding PNR and Physical Verification](#day-4-understanding-pnr-and-physical-verification)
+  * [OpenLANE Flow](#openlane-flow)
+- [Day 5  Running Layout vs Schematic](#day-5--running-layout-vs-schematic)
+  * [Simple LVS Experiment](#simple-lvs-experiment)
+  * [LVS Layout vs Verilog for Standard Cell](#lvs-layout-vs-verilog-for-standard-cell)
+  * [LVS for Small Analog Block Power on Reset](#lvs-for-small-analog-block-power-on-reset)
+  * [LVS Digital PLL](#lvs-digital-pll)
 - [References](#references)
 - [Acknowledgement](#acknowledgement)
+
+# Day 1 - Introduction to Skywater SKY130
+
+## Introduction
+
+## Software Tools and Setup
+
+## DRC and LVS Overview
+
+# Day 2 Introduction to DRC and LVS
+## GDS
+## Basic Extraction
+## DRC, LVS and XOR
+
+# Day 3 Front-end and Back-end DRC
+## DRC Rules
+### Width Rule and Spacing Rule
+
+
+# Day 4 Understanding PNR and Physical Verification
+## OpenLANE Flow
+
+# Day 5  Final steps for RTL2GDS
+## Simple LVS Experiment
+##
+
+# References
+
+* VLSI System Design: https://www.vlsisystemdesign.com/
+* OpenLANE: https://github.com/The-OpenROAD-Project/OpenLane
+
+# Acknowledgement
+
+* Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
+* Timothy Edwards, Founder Opencircuitdesign.com and SVP at Efabless.
+* Google
