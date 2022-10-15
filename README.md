@@ -172,8 +172,95 @@ This repository contains all the steps performed in 5-day Physical Verification 
 ![](images/day2/day2_38_xor.png)
 
 # Day 3 Front-end and Back-end DRC
+
+
 ## DRC Rules
+
+![](images/day3/day3_1_cloneDRCLabGitRepo.png)
+
+
+
 ### Width Rule and Spacing Rule
+
+![](images/day3/day3_2_WidthAndSpacingRule.png)
+
+### Wide Spacing Rule and Notch Rule
+
+### Vias
+
+![](images/day3/day3_3_via1.png)
+![](images/day3/day3_4_via2.png)
+![](images/day3/day3_5_via3.png)
+
+### Minimum Area Rule and Minimum Hole Rule
+
+![](images/day3/day3_6_minArea.png)
+![](images/day3/day3_7_minArea.png)
+![](images/day3/day3_8_minHoleArea.png)
+![](images/day3/day3_9_minHoleArea.png)
+
+### Wells and Deep N-well
+
+![](images/day3/day3_10_wellError.png)
+![](images/day3/day3_11_pwellError.png)
+![](images/day3/day3_12_wellSolution.png)
+![](images/day3/day3_13_pwellSolution.png)
+![](images/day3/day3_14_deepNwellError.png)
+![](images/day3/day3_15_deepNwellSolution.png)
+
+
+### Derived Layers
+
+![](images/day3/day3_16_derivedLayers.png)
+![](images/day3/day3_17_derivedLayers5b.png)
+![](images/day3/day3_18_derivedLayers5bError.png)
+![](images/day3/day3_19_derivedLayers5c.png)
+![](images/day3/day3_20_derivedLayers5cNPC.png)
+![](images/day3/day3_21_derivedLayers5cNPC.png)
+![](images/day3/day3_22_derivedLayers5cNPC.png)
+
+### Paramaterized and PDK devices
+
+![](images/day3/day3_23_paramaterizedDevices6aError.png)
+![](images/day3/day3_24_paramaterizedDevices6aSolution.png)
+
+
+### Angle Error and Overlap Rule
+
+![](images/day3/day3_25_AngleError7.png)
+![](images/day3/day3_26_AngleError7a.png)
+![](images/day3/day3_27_AngleError7aSolution1.png)
+![](images/day3/day3_28_AngleError7aSolution2.png)
+![](images/day3/day3_29_AngleError7aSolution3.png)
+
+![](images/day3/day3_30_overLapRule7d.png)
+![](images/day3/day3_31_overLapRule7e.png)
+![](images/day3/day3_32_overLapRule7d.png)
+
+### Unimplemented Rules
+
+![](images/day3/day3_33_9_LatchUpRuleError.png)
+![](images/day3/day3_34_9_LatchUpRuleSolution.png)
+
+
+### Latch-up and antenna Rule
+
+![](images/day3/day3_35_10_AntennaRule.png)
+![](images/day3/day3_36_10_AntennaRuleError.png)
+![](images/day3/day3_37_10_AntennaRuleError2.png)
+![](images/day3/day3_38_10_AntennaRuleSolution.png)
+![](images/day3/day3_39_10_AntennaRuleSolution2.png)
+
+
+### Density Rules
+
+![](images/day3/day3_40_11_densityRule.png)
+![](images/day3/day3_41_11_densityRuleError.png)
+![](images/day3/day3_42_11_densityRuleGenerateFiller.png)
+![](images/day3/day3_43_11_densityRuleGeneratedFillerPattern.png)
+![](images/day3/day3_44_11_densityRuleGeneratedFillerPatternView.png)
+![](images/day3/day3_45_11_densityRuleDensityView.png)
+![](images/day3/day3_46_11_densityRuleFillerPatternView.png)
 
 
 # Day 4 Understanding PNR and Physical Verification
