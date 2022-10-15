@@ -2,6 +2,8 @@
 
 This repository contains all the steps performed in 5-day Physical Verification Using SKY130 workshop. In this workshop, we primarily focus in the process of Physical verification like DRC(Design Rule Check) and LVS(Layout vs Schematic) check using sky130 PDK. All the lab exercises are performed in VSD online platform. 
 
+![](Day1/pdk_dir_structure.png)
+
 
 # Table of Contents
 
