@@ -2,7 +2,7 @@
 
 This repository contains all the steps performed in 5-day Physical Verification Using SKY130 workshop. In this workshop, we primarily focus in the process of Physical verification like DRC(Design Rule Check) and LVS(Layout vs Schematic) check using sky130 PDK. All the lab exercises are performed in VSD online platform. 
 
-![](Day1/pdk_dir_structure.png)
+![](images/titlePic.png)
 
 
 # Table of Contents
@@ -43,6 +43,42 @@ This repository contains all the steps performed in 5-day Physical Verification 
 ## Introduction
 
 ## Software Tools and Setup
+
+ ![](images/day1/day1_1_magicPrompt.png)
+  
+  ![](images/day1/day1_1_netgenPrompt.png)
+  
+  ![](images/day1/day1_1_xschemPrompt.png)
+  
+  ![](images/day1/day1_1_xschemLinkedPrompt.png)
+  
+  ![](images/day1/day1_2_ngspice.png)
+  
+  ![](images/day1/day1_3_magicBasic.png)
+  
+  ![](images/day1/day1_4_magicbasic.png)
+  
+  ![](images/day1/day1_5_magicnfet.png)
+  
+  ![](images/day1/day1_6_inverterSchematic.png)
+  
+  ![](images/day1/day1_7_inverterSymbol.png)
+  
+  ![](images/day1/day1_8_inverterSimulation.png)
+  
+  ![](images/day1/day1_9_inverterLayoutCells.png)
+  
+  ![](images/day1/day1_10_inverterLayoutExtraction.png)
+  
+  ![](images/day1/day1_10_inverterSpiceFile.png)
+  
+  ![](images/day1/day1_12_runningNetgen.png)
+  
+  ![](images/day1/day1_13_firstNetgenResult.png)
+  
+  ![](images/day1/day1_14_inverterSpiceFileExtractionWithParasitics.png)
+  
+  ![](images/day1/day1_15_inverterSpiceFileWithParasitics.png)
 
 ## DRC and LVS Overview
 
