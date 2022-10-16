@@ -1,3 +1,4 @@
+
 # Physical Verification Using SKY130
 
 This repository contains all the steps performed in 5-day Physical Verification Using SKY130 workshop. In this workshop, we primarily focus in the process of Physical verification like DRC(Design Rule Check) and LVS(Layout vs Schematic) check using sky130 PDK. All the lab exercises are performed in VSD online platform. 
@@ -142,6 +143,7 @@ Lef Read |  Ports
 :-------------------------:|:-------------------------:
 ![](images/day2/day2_9_lefReadAndPort.png) |  ![](images/day2/day2_10_spiceReadAndPort.png)
 
+## Abstract Views
 Open new Magic prompt and do lef read and load AND gate and expand it.
 
 Lef Read |  Ports
@@ -158,150 +160,170 @@ GDS read Test |  Layout of Test
 ![](images/day2/day2_15_gdsReadTest.png) |  ![](images/day2/day2_16_gdsReadTest2.png)
 
 
-When we load the test, we get the following layout for AND gate. The AND gate is actually loaded
+When we load the test, we get the following layout for AND gate. The AND gate is actually loaded from sky130_fd_sc_hd/gds directory.
 GDS read Test |  Layout of Test
 :-------------------------:|:-------------------------:
 ![](images/day2/day2_17_loadTestResult.png) |  ![](images/day2/day2_18_testPath.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![](images/day2/day2_19_GDSWriteTest.png)
-
-![](images/day2/day2_20_GDSReadTestResult.png)
-
-
+The sky130_fd_sc_hd__and2_1 cell is written to test file and edited and saved. When loading the test file the additional layer is not saved and the cell is loaded from the sky130_fd_sc_hd/gds directory.
+GDS write Test |  GDS read Test
+:-------------------------:|:-------------------------:
+![](images/day2/day2_19_GDSWriteTest.png) |  ![](images/day2/day2_20_GDSReadTestResult.png)
 
 
 ## Basic Extraction
 
-![](images/day2/day2_21_extractionFirst.png)
+Performing Extraction |  Location of Spice file
+:-------------------------:|:-------------------------:
+![](images/day2/day2_21_extractionFirst.png) |  ![](images/day2/day2_22_spiceFilePath.png)
 
-![](images/day2/day2_22_spiceFilePath.png)
+Spice File |  Spice File with Parasitic Capacitance
+:-------------------------:|:-------------------------:
+![](images/day2/day2_23_spiceFileFirst.png) |  ![](images/day2/day2_24_spiceFileSecond.png)
 
-![](images/day2/day2_23_spiceFileFirst.png)
-
-![](images/day2/day2_24_spiceFileSecond.png)
 
 ![](images/day2/day2_25_ExtractionLabel.png)
 
-![](images/day2/day2_26_extractionWithPCandPR.png)
+Extraction Label |  Extraction with Parasitic Resistance
+:-------------------------:|:-------------------------:
+![](images/day2/day2_26_extractionWithPCandPR.png) |  ![](images/day2/day2_27_extractionPR.png)
 
-![](images/day2/day2_27_extractionPR.png)
 
-![](images/day2/day2_28_extractionWithvalue.png)
+Extraction with threshold value |  Spice File
+:-------------------------:|:-------------------------:
+![](images/day2/day2_28_extractionWithvalue.png) |  ![](images/day2/day2_29_spiceFile.png)
 
-![](images/day2/day2_29_spiceFile.png)
+
 
 ## DRC, LVS and XOR
 
-![](images/day2/day2_30_drc.png)
+DRC mode |  DRC check
+:-------------------------:|:-------------------------:
+![](images/day2/day2_30_drc.png) |  ![](images/day2/day2_31_drcCheck.png)
 
-![](images/day2/day2_31_drcCheck.png)
+DRC Error  |  DRC Error Correction
+:-------------------------:|:-------------------------:
+![](images/day2/day2_32_drcErrorTapAndGate.png) |  ![](images/day2/day2_33_drcErrorCorrection1.png)
 
-![](images/day2/day2_32_drcErrorTapAndGate.png)
+LVS setup |  Extraction for LVS
+:-------------------------:|:-------------------------:
+![](images/day2/day2_35_lvsSetup.png) |  ![](images/day2/day2_36_lvsSetup2.png)
 
-![](images/day2/day2_32_drcErrorTapAndGate.png)
+LVS result |  XOR Result
+:-------------------------:|:-------------------------:
+![](images/day2/day2_37_netgenOutput.png) | ![](images/day2/day2_38_xor.png)
 
-![](images/day2/day2_33_drcErrorCorrection1.png)
 
-![](images/day2/day2_34_drcErrorCorrection2.png)
 
-![](images/day2/day2_35_lvsSetup.png)
 
-![](images/day2/day2_36_lvsSetup2.png)
-
-![](images/day2/day2_37_netgenOutput.png)
-
-![](images/day2/day2_38_xor.png)
 
 # Day 3 Front-end and Back-end DRC
 
 
 ## DRC Rules
 
-![](images/day3/day3_1_cloneDRCLabGitRepo.png)
 
+### Width Rule, Spacing Rule, Wide Spacing Rule and Notch Rule
 
-
-### Width Rule and Spacing Rule
-
-![](images/day3/day3_2_WidthAndSpacingRule.png)
-
-### Wide Spacing Rule and Notch Rule
+Clone Git Repository |  DRC Rule
+:-------------------------:|:-------------------------:
+![](images/day3/day3_1_cloneDRCLabGitRepo.png) | ![](images/day3/day3_2_WidthAndSpacingRule.png)
 
 ### Vias
 
-![](images/day3/day3_3_via1.png)
-![](images/day3/day3_4_via2.png)
+Via Overlap Rule |  Via Overlap Error Correction
+:-------------------------:|:-------------------------:
+![](images/day3/day3_3_via1.png) |  ![](images/day3/day3_4_via2.png)
+
 ![](images/day3/day3_5_via3.png)
 
 ### Minimum Area Rule and Minimum Hole Rule
 
-![](images/day3/day3_6_minArea.png)
-![](images/day3/day3_7_minArea.png)
-![](images/day3/day3_8_minHoleArea.png)
-![](images/day3/day3_9_minHoleArea.png)
+Minimum Area Error |  Minimum Area Error Correction
+:-------------------------:|:-------------------------:
+![](images/day3/day3_6_minArea.png) | ![](images/day3/day3_7_minArea.png)
+
+Minimim Hole Area |  Minimim Hole Area Error Correction
+:-------------------------:|:-------------------------:
+![](images/day3/day3_8_minHoleArea.png) | ![](images/day3/day3_9_minHoleArea.png)
 
 ### Wells and Deep N-well
 
-![](images/day3/day3_10_wellError.png)
-![](images/day3/day3_11_pwellError.png)
-![](images/day3/day3_12_wellSolution.png)
-![](images/day3/day3_13_pwellSolution.png)
-![](images/day3/day3_14_deepNwellError.png)
-![](images/day3/day3_15_deepNwellSolution.png)
+Nwell Error |  Nwell Error Correction
+:-------------------------:|:-------------------------:
+![](images/day3/day3_10_wellError.png)  | ![](images/day3/day3_12_wellSolution.png)
+
+Pwell Error |  Pwell Error Correction
+:-------------------------:|:-------------------------:
+![](images/day3/day3_11_pwellError.png) | ![](images/day3/day3_13_pwellSolution.png)
+
+DeepNwell Error |  DeepNwell Error Correction
+:-------------------------:|:-------------------------:
+![](images/day3/day3_14_deepNwellError.png) | ![](images/day3/day3_15_deepNwellSolution.png)
 
 
 ### Derived Layers
 
-![](images/day3/day3_16_derivedLayers.png)
-![](images/day3/day3_17_derivedLayers5b.png)
-![](images/day3/day3_18_derivedLayers5bError.png)
-![](images/day3/day3_19_derivedLayers5c.png)
-![](images/day3/day3_20_derivedLayers5cNPC.png)
-![](images/day3/day3_21_derivedLayers5cNPC.png)
-![](images/day3/day3_22_derivedLayers5cNPC.png)
+Derived Layer |  HVI Layer
+:-------------------------:|:-------------------------:
+![](images/day3/day3_16_derivedLayers.png) | ![](images/day3/day3_17_derivedLayers5b.png)
+
+Derived Layer Error |  NPC Layer
+:-------------------------:|:-------------------------:
+![](images/day3/day3_18_derivedLayers5bError.png) | ![](images/day3/day3_19_derivedLayers5c.png)
+
+NPC Layer |  NPC Layer
+:-------------------------:|:-------------------------:
+![](images/day3/day3_20_derivedLayers5cNPC.png) | ![](images/day3/day3_22_derivedLayers5cNPC.png)
+
 
 ### Paramaterized and PDK devices
 
-![](images/day3/day3_23_paramaterizedDevices6aError.png)
-![](images/day3/day3_24_paramaterizedDevices6aSolution.png)
+Paramaterized Devices Error |  Paramaterized Devices Error Solution
+:-------------------------:|:-------------------------:
+![](images/day3/day3_23_paramaterizedDevices6aError.png) | ![](images/day3/day3_24_paramaterizedDevices6aSolution.png)
 
 
 ### Angle Error and Overlap Rule
 
 ![](images/day3/day3_25_AngleError7.png)
-![](images/day3/day3_26_AngleError7a.png)
-![](images/day3/day3_27_AngleError7aSolution1.png)
-![](images/day3/day3_28_AngleError7aSolution2.png)
-![](images/day3/day3_29_AngleError7aSolution3.png)
 
-![](images/day3/day3_30_overLapRule7d.png)
-![](images/day3/day3_31_overLapRule7e.png)
-![](images/day3/day3_32_overLapRule7d.png)
+Angle Error |  Angle Error
+:-------------------------:|:-------------------------:
+![](images/day3/day3_26_AngleError7a.png) | ![](images/day3/day3_27_AngleError7aSolution1.png)
+
+Angle Error Correction |  Angle Error Correction
+:-------------------------:|:-------------------------:
+![](images/day3/day3_28_AngleError7aSolution2.png) | ![](images/day3/day3_29_AngleError7aSolution3.png)
+
+Overlap Error | 
+:-------------------------:|:-------------------------:
+![](images/day3/day3_30_overLapRule7d.png) |
+
+
+Overlap Rule |  Overlap Error Correction
+:-------------------------:|:-------------------------:
+![](images/day3/day3_31_overLapRule7e.png) | ![](images/day3/day3_32_overLapRule7d.png)
+
+
 
 ### Unimplemented Rules
 
-![](images/day3/day3_33_9_LatchUpRuleError.png)
-![](images/day3/day3_34_9_LatchUpRuleSolution.png)
+Latchup Rule Error |  Latchup Rule Error Correction
+:-------------------------:|:-------------------------:
+![](images/day3/day3_33_9_LatchUpRuleError.png) | ![](images/day3/day3_34_9_LatchUpRuleSolution.png)
+
 
 
 ### Latch-up and antenna Rule
 
+Via Overlap Rule |  Via Overlap Error Correction
+:-------------------------:|:-------------------------:
 ![](images/day3/day3_35_10_AntennaRule.png)
 ![](images/day3/day3_36_10_AntennaRuleError.png)
+
+Via Overlap Rule |  Via Overlap Error Correction
+:-------------------------:|:-------------------------:
 ![](images/day3/day3_37_10_AntennaRuleError2.png)
 ![](images/day3/day3_38_10_AntennaRuleSolution.png)
 ![](images/day3/day3_39_10_AntennaRuleSolution2.png)
@@ -309,10 +331,18 @@ GDS read Test |  Layout of Test
 
 ### Density Rules
 
+Via Overlap Rule |  Via Overlap Error Correction
+:-------------------------:|:-------------------------:
 ![](images/day3/day3_40_11_densityRule.png)
 ![](images/day3/day3_41_11_densityRuleError.png)
+
+Via Overlap Rule |  Via Overlap Error Correction
+:-------------------------:|:-------------------------:
 ![](images/day3/day3_42_11_densityRuleGenerateFiller.png)
 ![](images/day3/day3_43_11_densityRuleGeneratedFillerPattern.png)
+
+Via Overlap Rule |  Via Overlap Error Correction
+:-------------------------:|:-------------------------:
 ![](images/day3/day3_44_11_densityRuleGeneratedFillerPatternView.png)
 ![](images/day3/day3_45_11_densityRuleDensityView.png)
 ![](images/day3/day3_46_11_densityRuleFillerPatternView.png)
