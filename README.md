@@ -49,6 +49,17 @@ https://github.com/google/skywater-pdk
 
 ## Software Tools and Setup
 
+### Magic
+
+To install Magic, do the following steps:
+`git clone git://opencircuitdesign.com/magic`
+`cd magic`
+`./configure`
+`make`
+`sudo make install`
+
+To run magic, type `magic` in the prompt
+
 ![](images/day1/day1_1_magicPrompt.png)
   
 ![](images/day1/day1_1_netgenPrompt.png)
