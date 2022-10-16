@@ -60,19 +60,23 @@ make
 sudo make install
 ```
 
-To run magic, type `magic` in the prompt
+To run magic, go to mag directory and type `magic` in the prompt.
 
 ![](images/day1/day1_1_magicPrompt.png)
 
 ### Netgen
+To run Negten, go to netgen directory and type `netgen` in the prompt.
 ![](images/day1/day1_1_netgenPrompt.png)
 
 ### Xschem
+To run xschem, go to xschem directory and type `xschem` in the prompt.
 Xschem Prompt |  Xschem Prompt Linked
 :-------------------------:|:-------------------------:
 ![](images/day1/day1_1_xschemePrompt.png)  |  ![](images/day1/day1_1_xschemLinkedPrompt.png)
+To enter deep in ths block, select the block and press `e`. To return to top level press `ctrl + e`.
 
 ### Ngspice
+To run Ngspice, go to ngspice directory and type `ngspice` in the prompt.
 ![](images/day1/day1_2_ngspice.png)
  
 ### Magic Basics 
@@ -144,6 +148,20 @@ Lef Read |  Ports
 :-------------------------:|:-------------------------:
 ![](images/day2/day2_11_secondLEFReadAndPorts.png) |  ![](images/day2/day2_12_afterSpiceReadPortAndTest.png)
 
+Load Test Instance |  GDS Write test
+:-------------------------:|:-------------------------:
+![](images/day2/day2_13_loadTestinstance.png) |  ![](images/day2/day2_14_testCellGDSWrite.png)
+
+
+GDS read Test |  Layout of Test
+:-------------------------:|:-------------------------:
+![](images/day2/day2_15_gdsReadTest.png) |  ![](images/day2/day2_16_gdsReadTest2.png)
+
+
+When we load the test, we get the following layout for AND gate. The AND gate is actually loaded
+GDS read Test |  Layout of Test
+:-------------------------:|:-------------------------:
+![](images/day2/day2_17_loadTestResult.png) |  ![](images/day2/day2_18_testPath.png)
 
 
 
@@ -155,17 +173,9 @@ Lef Read |  Ports
 
 
 
-![](images/day2/day2_13_loadTestinstance.png)
 
-![](images/day2/day2_14_testCellGDSWrite.png)
 
-![](images/day2/day2_15_gdsReadTest.png)
 
-![](images/day2/day2_16_gdsReadTest2.png)
-
-![](images/day2/day2_17_loadTestResult.png)
-
-![](images/day2/day2_18_testPath.png)
 
 ![](images/day2/day2_19_GDSWriteTest.png)
 
