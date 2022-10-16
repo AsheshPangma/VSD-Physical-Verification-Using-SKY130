@@ -64,46 +64,53 @@ To run magic, type `magic` in the prompt
 ![](images/day1/day1_1_magicPrompt.png)
 
 ### Netgen
-  ![](images/day1/day1_1_netgenPrompt.png)
+![](images/day1/day1_1_netgenPrompt.png)
 
 ### Xschem
-Placement layout with FP_IO_MODE 2 |  Zoomed in figure
+Xschem Prompt |  Xschem Prompt Linked
 :-------------------------:|:-------------------------:
-![](images/day1/day1_1_xschemPrompt.png)  |  ![](images/day1/day1_1_xschemLinkedPrompt.png)
+![](images/day1/day1_1_xschemePrompt.png)  |  ![](images/day1/day1_1_xschemLinkedPrompt.png)
 
 ### Ngspice
 ![](images/day1/day1_2_ngspice.png)
  
 ### Magic Basics 
-Placement layout with FP_IO_MODE 2 |  Zoomed in figure
+Magic Basics |  Nfet
 :-------------------------:|:-------------------------:
 ![](images/day1/day1_3_magicBasci.png) |  ![](images/day1/day1_4_magicbasic.png)
 
 ![](images/day1/day1_5_magicnfet.png)
   
-### Inverter
+### DRC and LVS Overview with Inverter
+Inverter Schematic |  Inverter Symbol
+:-------------------------:|:-------------------------:
+![](images/day1/day1_6_inverterSchematic.png) |  ![](images/day1/day1_7_inverterSymbol.png)  
 
-![](images/day1/day1_6_inverterSchematic.png)
-  
-![](images/day1/day1_7_inverterSymbol.png)
-  
 ![](images/day1/day1_8_inverterSimulation.png)
-  
-![](images/day1/day1_9_inverterLayoutCells.png)
-  
-![](images/day1/day1_10_inverterLayoutExtraction.png)
-  
-![](images/day1/day1_10_inverterSpiceFile.png)
-  
-![](images/day1/day1_12_runningNetgen.png)
-  
-![](images/day1/day1_13_firstNetgenResult.png)
-  
-![](images/day1/day1_14_inverterSpiceFileExtractionWithParasitics.png)
-  
-![](images/day1/day1_15_inverterSpiceFileWithParasitics.png)
 
-## DRC and LVS Overview
+Inverter Layout Cells |  Extraction from Inverter in Magic
+:-------------------------:|:-------------------------:
+![](images/day1/day1_9_inverterLayoutCells.png) |  ![](images/day1/day1_10_inverterLayoutExtraction.png) 
+
+![](images/day1/day1_10_inverterSpiceFile.png)
+
+We run LVS using Netgen and the result is shown below:
+
+Running Netgen |  LVS Result
+:-------------------------:|:-------------------------:
+![](images/day1/day1_12_runningNetgen.png) |  ![](images/day1/day1_13_firstNetgenResult.png)
+
+  
+
+Extraction from Inverter in Magic |  Spice File
+:-------------------------:|:-------------------------:
+![](images/day1/day1_14_inverterSpiceFileExtractionWithParasitics.png) |  ![](images/day1/day1_15_inverterSpiceFileWithParasitics.png)
+  
+
+  
+
+
+
 
 # Day 2 Introduction to DRC and LVS
 
