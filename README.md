@@ -42,6 +42,11 @@ This repository contains all the steps performed in 5-day Physical Verification 
 
 ## Introduction
 
+SKY130 is an open source PDK(Process Design Kit) provided by Skywater foundry and Google to design Ic that are opensource. This mean the IPs can be used by anyone without any charge. The main focus is to develop efficient and optimized IC for better performance.
+The following git repository holds all the information about sky130 PDK.
+https://github.com/google/skywater-pdk
+
+
 ## Software Tools and Setup
 
 ![](images/day1/day1_1_magicPrompt.png)
