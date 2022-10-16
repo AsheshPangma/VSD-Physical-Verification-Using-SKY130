@@ -115,30 +115,44 @@ Extraction from Inverter in Magic |  Spice File
 # Day 2 Introduction to DRC and LVS
 
 ## GDS
+CIF ISTYLE |  Loading AND Gate
+:-------------------------:|:-------------------------:
+![](images/day2/day2_1_gdsRead.png) |  ![](images/day2/day2_2_loadAndGate.png)
 
-![](images/day2/day2_1_gdsRead.png)
-
-![](images/day2/day2_2_loadAndGate.png)
 
 ![](images/day2/day2_3_AndGatelayout.png)
 
-![](images/day2/day2_4_changeCIFstyle.png)
-
-![](images/day2/day2_5_loadAndGate.png)
+Changing CIF Style |  Loading AND Gate with Sky130() CIF Style
+:-------------------------:|:-------------------------:
+![](images/day2/day2_4_changeCIFstyle.png) |  ![](images/day2/day2_5_loadAndGate.png)
 
 ![](images/day2/day2_6_AndGateports.png)
 
-![](images/day2/day2_7_spiceFilelocation.png)
+Spice File location |  AND Gate Spice File
+:-------------------------:|:-------------------------:
+![](images/day2/day2_7_spiceFilelocation.png) |  ![](images/day2/day2_8_spiceFile.png)
 
-![](images/day2/day2_8_spiceFile.png)
 
-![](images/day2/day2_9_lefReadAndPort.png)
+Lef Read |  Ports
+:-------------------------:|:-------------------------:
+![](images/day2/day2_9_lefReadAndPort.png) |  ![](images/day2/day2_10_spiceReadAndPort.png)
 
-![](images/day2/day2_10_spiceReadAndPort.png)
+Open new Magic prompt and do lef read and load AND gate and expand it.
 
-![](images/day2/day2_11_secondLEFReadAndPorts.png)
+Lef Read |  Ports
+:-------------------------:|:-------------------------:
+![](images/day2/day2_11_secondLEFReadAndPorts.png) |  ![](images/day2/day2_12_afterSpiceReadPortAndTest.png)
 
-![](images/day2/day2_12_afterSpiceReadPortAndTest.png)
+
+
+
+
+
+
+
+
+
+
 
 ![](images/day2/day2_13_loadTestinstance.png)
 
