@@ -317,35 +317,32 @@ Latchup Rule Error |  Latchup Rule Error Correction
 
 ### Latch-up and antenna Rule
 
-Via Overlap Rule |  Via Overlap Error Correction
+Antenna Rule Error |  Antenna Rule Error
 :-------------------------:|:-------------------------:
-![](images/day3/day3_35_10_AntennaRule.png)
-![](images/day3/day3_36_10_AntennaRuleError.png)
+![](images/day3/day3_35_10_AntennaRule.png) | ![](images/day3/day3_36_10_AntennaRuleError.png)
 
-Via Overlap Rule |  Via Overlap Error Correction
+Antenna Rule Error |  Antenna Rule Error Correction
 :-------------------------:|:-------------------------:
-![](images/day3/day3_37_10_AntennaRuleError2.png)
-![](images/day3/day3_38_10_AntennaRuleSolution.png)
+![](images/day3/day3_37_10_AntennaRuleError2.png) | ![](images/day3/day3_38_10_AntennaRuleSolution.png)
+
+Antenna Rule Error |
+:-------------------------:|
 ![](images/day3/day3_39_10_AntennaRuleSolution2.png)
 
 
 ### Density Rules
 
-Via Overlap Rule |  Via Overlap Error Correction
+Density of Metal Layers |  Density Rule Error
 :-------------------------:|:-------------------------:
-![](images/day3/day3_40_11_densityRule.png)
-![](images/day3/day3_41_11_densityRuleError.png)
+![](images/day3/day3_40_11_densityRule.png) | ![](images/day3/day3_41_11_densityRuleError.png)
 
-Via Overlap Rule |  Via Overlap Error Correction
+Fill Pattern View |  Generated GDS File
 :-------------------------:|:-------------------------:
-![](images/day3/day3_42_11_densityRuleGenerateFiller.png)
-![](images/day3/day3_43_11_densityRuleGeneratedFillerPattern.png)
+![](images/day3/day3_42_11_densityRuleGenerateFiller.png) | ![](images/day3/day3_43_11_densityRuleGeneratedFillerPattern.png)
 
-Via Overlap Rule |  Via Overlap Error Correction
-:-------------------------:|:-------------------------:
-![](images/day3/day3_44_11_densityRuleGeneratedFillerPatternView.png)
-![](images/day3/day3_45_11_densityRuleDensityView.png)
-![](images/day3/day3_46_11_densityRuleFillerPatternView.png)
+Generated Fill Pattern |  Density of Different Metal Layers | Fill Pattern
+:-------------------------:|:-------------------------:|:-------------------------:
+![](images/day3/day3_44_11_densityRuleGeneratedFillerPatternView.png) | ![](images/day3/day3_45_11_densityRuleDensityView.png) | ![](images/day3/day3_46_11_densityRuleFillerPatternView.png)
 
 
 # Day 4 Understanding PNR and Physical Verification
