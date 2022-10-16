@@ -70,11 +70,11 @@ To run Negten, go to netgen directory and type `netgen` in the prompt.
 ![](images/day1/day1_1_netgenPrompt.png)
 
 ### Xschem
-To run xschem, go to xschem directory and type `xschem` in the prompt.
+
 Xschem Prompt |  Xschem Prompt Linked
 :-------------------------:|:-------------------------:
 ![](images/day1/day1_1_xschemePrompt.png)  |  ![](images/day1/day1_1_xschemLinkedPrompt.png)
-To enter deep in ths block, select the block and press `e`. To return to top level press `ctrl + e`.
+To run xschem, go to xschem directory and type `xschem` in the prompt. | To enter deep in the block, select the block and press `e`. To return to top level press `ctrl + e`.
 
 ### Ngspice
 To run Ngspice, go to ngspice directory and type `ngspice` in the prompt.
@@ -348,25 +348,43 @@ Generated Fill Pattern |  Density of Different Metal Layers | Fill Pattern
 # Day 4 Understanding PNR and Physical Verification
 ## OpenLANE Flow
 
+
 # Day 5  Final steps for RTL2GDS
 
 ## Simple LVS Experiment
+### Lab Exercise 1
 
+Fill Pattern View |  Generated GDS File
+:-------------------------:|:-------------------------:
 ![](images/day5/day5_1_1_gitCloneRepository.png)
 ![](images/day5/day5_2_1_lvsNetgen1.png)
+
+Fill Pattern View |  Generated GDS File
+:-------------------------:|:-------------------------:
 ![](images/day5/day5_3_1_runLVSNetgen2.png)
 ![](images/day5/day5_4_1_runLVSNetgen3.png)
+
+Fill Pattern View |  Generated GDS File
+:-------------------------:|:-------------------------:
 ![](images/day5/day5_5_1_subCkt.png)
 ![](images/day5/day5_6_1_netgenOutput.png)
+
+
 ![](images/day5/day5_7_1_compOut.png)
+
+Fill Pattern View |  Generated GDS File
+:-------------------------:|:-------------------------:
 ![](images/day5/day5_8_1_netASpice.png)
 ![](images/day5/day5_9_1_netASpiceEdited.png)
+
+Fill Pattern View |  Generated GDS File
+:-------------------------:|:-------------------------:
 ![](images/day5/day5_10_1_LVSNetgenResult.png)
 ![](images/day5/day5_11_1_compOut2.png)
 ![](images/day5/day5_11_1_compOut3.png)
 
 
-
+### Lab Exercise 2
 ![](images/day5/day5_12_2_netAndnetBLVSRun.png)
 ![](images/day5/day5_12_2_netAndnetBSpiceFile.png)
 ![](images/day5/day5_13_2_ngspice.png)
@@ -382,6 +400,7 @@ Generated Fill Pattern |  Density of Different Metal Layers | Fill Pattern
 ![](images/day5/day5_21_2_LVSFromTerminal3.png)
 
 
+### Lab Exercise 3
 ![](images/day5/day5_22_3_netASPICEFile.png)
 ![](images/day5/day5_23_3_netASPICEFile.png)
 ![](images/day5/day5_24_3_netASPICEFileChanged.png)
@@ -399,6 +418,7 @@ Generated Fill Pattern |  Density of Different Metal Layers | Fill Pattern
 ![](images/day5/day5_36_3_compOut.png)
 
 
+### Lab Exercise 4
 ![](images/day5/day5_37_4_netASPICEFile.png)
 ![](images/day5/day5_37_4_netASPICEFileChanged.png)
 ![](images/day5/day5_39_4_LVSRun.png)
@@ -407,6 +427,7 @@ Generated Fill Pattern |  Density of Different Metal Layers | Fill Pattern
 ![](images/day5/day5_42_4_compOutSecond.png)
 
 
+### Lab Exercise 5
 ![](images/day5/day5_43_5_runXschemAnalogProjectWrapper.png)
 ![](images/day5/day5_44_5_schematicAnalogProjectWrapper.png)
 ![](images/day5/day5_44_5_schematicAnalogProjectWrapper.png)
@@ -442,6 +463,7 @@ Generated Fill Pattern |  Density of Different Metal Layers | Fill Pattern
 ![](images/day5/day5_74_5_runLVSWrapperResult.png)
 
 
+### Lab Exercise 6
 ![](images/day5/day5_75_6_layoutDigitalPLLExtractionAndError.png)
 ![](images/day5/day5_76_6_layoutDigitalPLLError.png)
 ![](images/day5/day5_77_6_runLVS.png)
@@ -456,6 +478,7 @@ Generated Fill Pattern |  Density of Different Metal Layers | Fill Pattern
 ![](images/day5/day5_86_6_runLVSResult.png)
 
 
+### Lab Exercise 7
 ![](images/day5/day5_87_7_layoutMgmtProtectExtraction.png)
 ![](images/day5/day5_88_7_runLVSResult.png)
 ![](images/day5/day5_89_7_runLVSResultHighlight.png)
@@ -468,6 +491,7 @@ Generated Fill Pattern |  Density of Different Metal Layers | Fill Pattern
 ![](images/day5/day5_96_7_mgmtProtectVerilog.png)
 
 
+### Lab Exercise 8
 ![](images/day5/day5_97_8_layoutDigitalPLLExtraction.png)
 ![](images/day5/day5_98_8_runLVSResult.png)
 ![](images/day5/day5_99_8_execise8CompOutMismatch.png)
@@ -512,6 +536,7 @@ Generated Fill Pattern |  Density of Different Metal Layers | Fill Pattern
 ![](images/day5/day5_138_8_runLVSResult.png)
 
 
+### Lab Exercise 9
 ![](images/day5/day5_139_9_layoutExample_porExtraction.png)
 ![](images/day5/day5_140_9_schemeticExamplePorTbNetlist.png)
 ![](images/day5/day5_141_9_runLVSResult.png)
