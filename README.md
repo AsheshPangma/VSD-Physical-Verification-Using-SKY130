@@ -62,21 +62,27 @@ sudo make install
 To run magic, type `magic` in the prompt
 
 ![](images/day1/day1_1_magicPrompt.png)
-  
-![](images/day1/day1_1_netgenPrompt.png)
-  
-![](images/day1/day1_1_xschemPrompt.png)
-  
-![](images/day1/day1_1_xschemLinkedPrompt.png)
-  
+
+### Netgen
+  ![](images/day1/day1_1_netgenPrompt.png)
+
+### Xschem
+Placement layout with FP_IO_MODE 2 |  Zoomed in figure
+:-------------------------:|:-------------------------:
+![](images/day1/day1_1_xschemPrompt.png)  |  ![](images/day1/day1_1_xschemLinkedPrompt.png)
+
+### Ngspice
 ![](images/day1/day1_2_ngspice.png)
-  
-![](images/day1/day1_3_magicBasci.png)
-  
-![](images/day1/day1_4_magicbasic.png)
-  
+ 
+### Magic Basics 
+Placement layout with FP_IO_MODE 2 |  Zoomed in figure
+:-------------------------:|:-------------------------:
+![](images/day1/day1_3_magicBasci.png) |  ![](images/day1/day1_4_magicbasic.png)
+
 ![](images/day1/day1_5_magicnfet.png)
   
+### Inverter
+
 ![](images/day1/day1_6_inverterSchematic.png)
   
 ![](images/day1/day1_7_inverterSymbol.png)
