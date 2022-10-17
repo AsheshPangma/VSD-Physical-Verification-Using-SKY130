@@ -356,43 +356,42 @@ Generated Fill Pattern |  Density of Different Metal Layers | Fill Pattern
 ![](images/day5/day5_1_1_gitCloneRepository.png)
 
 ### Lab Exercise 1
-
+First we move to directory ecercise_1. We are provided with two spice files as shown below:
 ![](images/day5/day5_2_1_lvsNetgen1.png)
 
-Fill Pattern View |  Generated GDS File
+Running LVS |  LVS Result
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_3_1_runLVSNetgen2.png) | ![](images/day5/day5_4_1_runLVSNetgen3.png)
 
-Fill Pattern View |  Generated GDS File
+Running Ngspice |  Ngspice Result
 :-------------------------:|:-------------------------:
-![](images/day5/day5_5_1_subCkt.png) | ![](images/day5/day5_6_1_netgenOutput.png)
+![](images/day5/day5_5_1_subCkt.png) | ![](images/day5/day5_6_1_netgenOutput.png) ![](images/day5/day5_7_1_compOut.png)
 
 
-![](images/day5/day5_7_1_compOut.png)
 
-Fill Pattern View |  Generated GDS File
+
+netA Spice File      | LVS Result
 :-------------------------:|:-------------------------:
-![](images/day5/day5_8_1_netASpice.png) | ![](images/day5/day5_9_1_netASpiceEdited.png)
+![](images/day5/day5_8_1_netASpice.png) Updated netA Spice File ![](images/day5/day5_9_1_netASpiceEdited.png) | ![](images/day5/day5_10_1_LVSNetgenResult.png)
 
-Fill Pattern View |  Generated GDS File
+Comp.out File | Comp.out File
 :-------------------------:|:-------------------------:
-![](images/day5/day5_10_1_LVSNetgenResult.png) | ![](images/day5/day5_11_1_compOut2.png)
-![](images/day5/day5_11_1_compOut3.png)
+![](images/day5/day5_11_1_compOut2.png) | ![](images/day5/day5_11_1_compOut3.png) 
+
 
 
 ### Lab Exercise 2
 
-Fill Pattern View |  Generated GDS File
+The following figure shows the spice file for netA and netB. And also running LVS we get the following error.
+![](images/day5/day5_12_2_netAAndnetBLVSRun.png) 
+
+Running NGspice |  Running LVS and its Result
 :-------------------------:|:-------------------------:
-![](images/day5/day5_12_2_netAndnetBLVSRun.png) | ![](images/day5/day5_12_2_netAndnetBSpiceFile.png)
+![](images/day5/day5_13_2_ngspice.png) | ![](images/day5/day5_14_2_LVSRunWithTest.png) ![](images/day5/day5_15_2_LVSRunWithTestResult.png)
 
 Fill Pattern View |  Generated GDS File
 :-------------------------:|:-------------------------:
-![](images/day5/day5_13_2_ngspice.png) | ![](images/day5/day5_14_2_LVSRunWithTest.png)
-
-Fill Pattern View |  Generated GDS File
-:-------------------------:|:-------------------------:
-![](images/day5/day5_15_2_LVSRunWithTestResult.png) | ![](images/day5/day5_16_2_compOut.png)
+![](images/day5/day5_16_2_compOut.png)
 
 Fill Pattern View |  Generated GDS File
 :-------------------------:|:-------------------------:
