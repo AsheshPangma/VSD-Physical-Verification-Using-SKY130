@@ -389,67 +389,65 @@ Running NGspice |  Running LVS and its Result
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_13_2_ngspice.png) | ![](images/day5/day5_14_2_LVSRunWithTest.png) ![](images/day5/day5_15_2_LVSRunWithTestResult.png)
 
-Fill Pattern View |  Generated GDS File
+Comp.out File |  Net A Spice File 
 :-------------------------:|:-------------------------:
-![](images/day5/day5_16_2_compOut.png)
+![](images/day5/day5_16_2_compOut.png) | ![](images/day5/day5_17_2_netASpice.png) Net A updated Spice File ![](images/day5/day5_17_2_netASpiceChanged.png) LVS Result  ![](images/day5/day5_18_2_LVSRun.png)
 
-Fill Pattern View |  Generated GDS File
-:-------------------------:|:-------------------------:
-![](images/day5/day5_17_2_ngASpice.png) | ![](images/day5/day5_17_2_ngASpiceChanged.png)
+The following figure shows Comp.out file and the corresponding result from running LVS
+![](images/day5/day5_18_2_LVSRun2.png)
 
-Fill Pattern View |  Generated GDS File
-:-------------------------:|:-------------------------:
-![](images/day5/day5_18_2_LVSRun.png) | ![](images/day5/day5_18_2_LVSRun2.png)
-
-Fill Pattern View |  Generated GDS File
+Running LVS from Terminal |  Running Error count
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_19_2_LVSFromTerminal.png) | ![](images/day5/day5_20_2_LVSFromTerminal2.png)
+
+Creating a Bash Script to Run LVS
 ![](images/day5/day5_21_2_LVSFromTerminal3.png)
 
 
 ### Lab Exercise 3
+First, We change our directory to exercise_3. Then we view the netA spice file as shown below:
 
-Fill Pattern View |  Generated GDS File
-:-------------------------:|:-------------------------:
-![](images/day5/day5_22_3_netASPICEFile.png) | ![](images/day5/day5_23_3_netASPICEFile.png)
+![](images/day5/day5_22_3_netASPICEFile.png)
 
-Fill Pattern View |  Generated GDS File
+Net A Spice File |  Updated Net A Spice File
 :-------------------------:|:-------------------------:
-![](images/day5/day5_24_3_netASPICEFileChanged.png) | ![](images/day5/day5_25_3_runLVSResult.png)
+![](images/day5/day5_23_3_netASPICEFile.png) | ![](images/day5/day5_24_3_netASPICEFileChanged.png)
 
-Fill Pattern View |  Generated GDS File
+LVS Result |  Exercise_3_comp.out
 :-------------------------:|:-------------------------:
-![](images/day5/day5_26_3_compOut.png) | ![](images/day5/day5_27_3_netASPICEFileChanged2.png)
+![](images/day5/day5_25_3_runLVSResult.png) | ![](images/day5/day5_26_3_compOut.png)
 
-Fill Pattern View |  Generated GDS File
+Updated Net A Spice File | Exercise_3_comp.out
 :-------------------------:|:-------------------------:
-![](images/day5/day5_28_3_LVSRunResult.png) | ![](images/day5/day5_29_3_compOut.png)
+![](images/day5/day5_27_3_netASPICEFileChanged2.png)  LVS Result ![](images/day5/day5_28_3_LVSRunResult.png) | ![](images/day5/day5_29_3_compOut.png)
 
-Fill Pattern View |  Generated GDS File
+Exercise_3_comp.out |  Updated Spice File
 :-------------------------:|:-------------------------:
-![](images/day5/day5_30_3_compOut2.png) | ![](images/day5/day5_31_3_netASPICEFileChanged.png)
+![](images/day5/day5_30_3_compOut2.png) | ![](images/day5/day5_31_3_netASPICEFileChanged.png) LVS Result ![](images/day5/day5_32_3_LVSRunResult.png)
 
-Fill Pattern View |  Generated GDS File
-:-------------------------:|:-------------------------:
-![](images/day5/day5_32_3_LVSRunResult.png) | ![](images/day5/day5_33_3_compOut.png)
 
-Fill Pattern View |  Generated GDS File
+
+Exercise_3_comp.out |  Updated Script
 :-------------------------:|:-------------------------:
-![](images/day5/day5_34_3_run_lvsShFile.png) | ![](images/day5/day5_35_3_LVSRunResult.png)
+![](images/day5/day5_33_3_compOut.png) | ![](images/day5/day5_34_3_run_lvsShFile.png) LVS Result ![](images/day5/day5_35_3_LVSRunResult.png)
+
+The updated Exercise_3_comp.out can be seen below:
 ![](images/day5/day5_36_3_compOut.png)
 
 
 ### Lab Exercise 4
 
-Fill Pattern View |  Generated GDS File
-:-------------------------:|:-------------------------:
-![](images/day5/day5_37_4_netASPICEFile.png) | ![](images/day5/day5_37_4_netASPICEFileChanged.png)
+Similarly, We change our directory to exercise_4. Then we view the netA spice file as shown below:
 
-Fill Pattern View |  Generated GDS File
+Net A Spice File |  Net A Spice File Updated
+:-------------------------:|:-------------------------:
+![](images/day5/day5_37_4_netASPICEFile.png) | ![](images/day5/day5_38_4_netASPICEFileChanged.png)
+
+Netgen LVS Result |  Updated Setup_tcl File 
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_39_4_LVSRun.png) | ![](images/day5/day5_40_4_sky130_setupTCLEdited.png)
 
-Fill Pattern View |  Generated GDS File
+Net A Spice File Updated |  Comp.out File for Exercise 4
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_41_4_netASPICEFileCell3Edited.png) | ![](images/day5/day5_42_4_compOutSecond.png)
 
