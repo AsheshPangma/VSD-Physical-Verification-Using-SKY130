@@ -389,9 +389,9 @@ Running NGspice |  Running LVS and its Result
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_13_2_ngspice.png) | ![](images/day5/day5_14_2_LVSRunWithTest.png) ![](images/day5/day5_15_2_LVSRunWithTestResult.png)
 
-Comp.out File |  Net A Spice File 
+Comp.out File |  Net A updated Spice File 
 :-------------------------:|:-------------------------:
-![](images/day5/day5_16_2_compOut.png) | ![](images/day5/day5_17_2_netASpice.png) Net A updated Spice File ![](images/day5/day5_17_2_netASpiceChanged.png) LVS Result  ![](images/day5/day5_18_2_LVSRun.png)
+![](images/day5/day5_16_2_compOut.png) Net A Spice File  ![](images/day5/day5_17_2_netASpice.png) | ![](images/day5/day5_17_2_netASpiceChanged.png) LVS Result  ![](images/day5/day5_18_2_LVSRun.png)
 
 The following figure shows Comp.out file and the corresponding result from running LVS
 ![](images/day5/day5_18_2_LVSRun2.png)
