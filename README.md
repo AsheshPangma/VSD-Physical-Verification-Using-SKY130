@@ -454,70 +454,74 @@ Net A Spice File Updated |  Comp.out File for Exercise 4
 
 ### Lab Exercise 5
 
-Fill Pattern View |  Generated GDS File
-:-------------------------:|:-------------------------:
-![](images/day5/day5_43_5_runXschemAnalogProjectWrapper.png) | ![](images/day5/day5_44_5_schematicAnalogProjectWrapper.png)
+First, we change our directory to exercise_5 and view the files in different sub directory. This is  shown by the figure below:
+![](images/day5/day5_43_5_runXschemAnalogProjectWrapper.png)
+Then we run Xschem on user_analog_project_wrapper.sch
 
-Fill Pattern View |  Generated GDS File
+user_analog_project_wrapper |  Block Diagram of user_analog_project_wrapper
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_44_5_schematicAnalogProjectWrapper.png) | ![](images/day5/day5_45_5_blockDiagramUserAnalogProjectWrapper.png)
 
-Fill Pattern View |  Generated GDS File
+Spice File of user_analog_project_wrapper  |  Layout of user_analog_project_wrapper
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_46_5_spiceFileUserAnalogProjectWrapper.png) | ![](images/day5/day5_47_5_layoutUserAnalogProjectWrapper.png)
 
-Fill Pattern View |  Generated GDS File
+Layout of user_analog_project_wrapper zoomed |  Extraction of user_analog_project_wrapper
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_48_5_layoutUserAnalogProjectWrapper2.png) | ![](images/day5/day5_49_5_layoutExtractUserAnalogProjectWrapper.png)
 
-Fill Pattern View |  Generated GDS File
+Feedback Error |  Exercise_5_Comp.out File
 :-------------------------:|:-------------------------:
-![](images/day5/day5_50_5_layoutExtractUserAnalogProjectWrapper2.png) | ![](images/day5/day5_51_5_layoutUserAnalogProjectWrapperWarning.png)
+![](images/day5/day5_51_5_layoutUserAnalogProjectWrapperWarning.png) | ![](images/day5/day5_52_5_wrapperCompOut.png)
 
-Fill Pattern View |  Generated GDS File
+Analog_wrapper_tb Block Diagram |  Analog_wrapper_tb Block Diagram Netlest Generated
 :-------------------------:|:-------------------------:
-![](images/day5/day5_52_5_wrapperCompOut.png) | ![](images/day5/day5_53_5_schematicAnalogWrapperTb.png)
+ | ![](images/day5/day5_53_5_schematicAnalogWrapperTb.png) | ![](images/day5/day5_54_5_schematicAnalogWrapperTb2.png)
 
-Fill Pattern View |  Generated GDS File
+Run_lvs_wrapper File | Edited Run_lvs_wrapper File
 :-------------------------:|:-------------------------:
-![](images/day5/day5_54_5_schematicAnalogWrapperTb2.png) | ![](images/day5/day5_55_5_runLVSWrapperShEdited.png)
+![](images/day5/day5_55_5_runLVSWrapperShEdited.png) Running LVS ![](images/day5/day5_56_5_runLVSWrapper.png)  | ![](images/day5/day5_57_5_runLVSPor.png) LVS Result ![](images/day5/day5_58_5_runLVSPorResult.png)
 
-Fill Pattern View |  Generated GDS File
+Exercise_5_comp.out File |  Layout of Example_por
 :-------------------------:|:-------------------------:
-![](images/day5/day5_56_5_runLVSWrapper.png) | ![](images/day5/day5_57_5_runLVSPor.png)
+![](images/day5/day5_59_5_porCompOut.png) | ![](images/day5/day5_60_5_layoutExamplePor.png)
 
-Fill Pattern View |  Generated GDS File
+
+
+
+Layout of Example_por zoomed | Spice File for user_analog_project_wrapper
 :-------------------------:|:-------------------------:
-![](images/day5/day5_58_5_runLVSPorResult.png) | ![](images/day5/day5_59_5_porCompOut.png)
+![](images/day5/day5_61_5_layoutExamplePor2.png) | ![](images/day5/day5_62_5_spiceFileUserAnalogProjectWrapper.png)
 
-Fill Pattern View |  Generated GDS File
+Por_comp.out File | Wrapper_comp.out File
 :-------------------------:|:-------------------------:
-![](images/day5/day5_60_5_layoutExamplePor.png) | ![](images/day5/day5_61_5_layoutExamplePor2.png)
+![](images/day5/day5_63_5_porCompOut.png) | ![](images/day5/day5_64_5_wrapperCompOut.png)
 
-Fill Pattern View |  Generated GDS File
+Wrapper_comp.out File |  Block Diagram of analog_wrapper_tb
 :-------------------------:|:-------------------------:
-![](images/day5/day5_62_5_spiceFileUserAnalogProjectWrapper.png) | ![](images/day5/day5_63_5_porCompOut.png)
+![](images/day5/day5_65_5_wrapperCompOut2.png) | ![](images/day5/day5_66_5_schemeticAnalogWrapperTb.png)
 
-Fill Pattern View |  Generated GDS File
+Block Diagram of analog_wrapper_tb |  Layout for user_analog_project_wrapper
 :-------------------------:|:-------------------------:
-![](images/day5/day5_64_5_wrapperCompOut.png) | ![](images/day5/day5_65_5_wrapperCompOut2.png)
+![](images/day5/day5_67_5_schemeticAnalogWrapperTb2.png) | ![](images/day5/day5_68_5_layoutUserAnalogProjectWrapper.png)
 
-Fill Pattern View |  Generated GDS File
+Layout for user_analog_project_wrapper Showing Connected Nets |  Layout for user_analog_project_wrapper Painted with metal layer m3
 :-------------------------:|:-------------------------:
-![](images/day5/day5_66_5_schemeticAnalogWrapperTb.png) | ![](images/day5/day5_67_5_schemeticAnalogWrapperTb2.png)
+![](images/day5/day5_69_5_layoutUserAnalogProjectWrapper2.png) | ![](images/day5/day5_70_5_layoutUserAnalogProjectWrapperPaintedm3.png)
 
-Fill Pattern View |  Generated GDS File
-:-------------------------:|:-------------------------:
-![](images/day5/day5_68_5_layoutUserAnalogProjectWrapper.png) | ![](images/day5/day5_69_5_layoutUserAnalogProjectWrapper2.png)
+The result of run_lvs_wrapper is shown by the figure given below:
 
-Fill Pattern View |  Generated GDS File
-:-------------------------:|:-------------------------:
-![](images/day5/day5_70_5_layoutUserAnalogProjectWrapperPaintedm3.png) | ![](images/day5/day5_71_5_runLVSWrapperResult.png)
+![](images/day5/day5_71_5_runLVSWrapperResult.png)
+It is clear that we still have some mismatch betweel our layout and schematic.
 
-Fill Pattern View |  Generated GDS File
+Block Diagram of analog_wrapper_tb with a Resistor |  Netlist Generation of the Edited Block Diagram
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_72_5_schemeticAnalogWrapperTbEdited.png) | ![](images/day5/day5_73_5_schemeticAnalogWrapperTbNetlistGeneration.png)
+
+Then again we run LVS with netgen and the following output is obtained. This time we have fewer errors. Following similar process we can remove all the errors. 
 ![](images/day5/day5_74_5_runLVSWrapperResult.png)
+
+
 
 
 ### Lab Exercise 6
