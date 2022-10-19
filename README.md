@@ -526,50 +526,46 @@ Then again we run LVS with netgen and the following output is obtained. This tim
 
 ### Lab Exercise 6
 
-Fill Pattern View |  Generated GDS File
+Extraction from Digital PLL Layout |  Error in Digital PLL
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_75_6_layoutDigitalPLLExtractionAndError.png) | ![](images/day5/day5_76_6_layoutDigitalPLLError.png)
 
-Fill Pattern View |  Generated GDS File
+LVS result |  Example_6_comp.out file
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_77_6_runLVS.png) | ![](images/day5/day5_78_6_example6compOut.png)
 
-Fill Pattern View |  Generated GDS File
+Verilog file for Digital PLL showing Filler_0_11 |  Spice File for Digital PLL
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_79_6_verilogDigitalPLLFiller10.png) | ![](images/day5/day5_80_6_spiceDigitalPLLFiller011.png)
 
-Fill Pattern View |  Generated GDS File
+Layout showing Filler_0_11 |  Zoom in View of Filler_0_11
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_81_6_layoutShowingFiller011.png) | ![](images/day5/day5_82_6_layoutShowingFiller011Zoomed.png)
 
-Fill Pattern View |  Generated GDS File
+Layout for pushed down View of Filler_0_11 | Sky130_setup.tcl File 
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_83_6_layoutShowingFiller011pushedDown.png) | ![](images/day5/day5_84_6_sky130SetupTcl.png)
 
-Fill Pattern View |  Generated GDS File
+run_lvs Script |  LVS Result
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_85_6_runLVSScriptEdited.png) | ![](images/day5/day5_86_6_runLVSResult.png)
 
 
 ### Lab Exercise 7
 
-Fill Pattern View |  Generated GDS File
+Extraction from Mgmt_protect layout |  LVS Result showing Error
 :-------------------------:|:-------------------------:
-![](images/day5/day5_87_7_layoutMgmtProtectExtraction.png) | ![](images/day5/day5_88_7_runLVSResult.png)
+![](images/day5/day5_87_7_layoutMgmtProtectExtraction.png) | ![](images/day5/day5_89_7_runLVSResultHighlight.png)
 
-Fill Pattern View |  Generated GDS File
+Mgmt_protect Verilog File line 242 |  run_lvs script
 :-------------------------:|:-------------------------:
-![](images/day5/day5_89_7_runLVSResultHighlight.png) | ![](images/day5/day5_90_7_mgmtProtectVerilogLine242.png)
+![](images/day5/day5_90_7_mgmtProtectVerilogLine242.png) | ![](images/day5/day5_91_7_runLVSScriptEdited.png) LVS Result ![](images/day5/day5_92_7_runLVSResult.png)
 
-Fill Pattern View |  Generated GDS File
-:-------------------------:|:-------------------------:
-![](images/day5/day5_91_7_runLVSScriptEdited.png) | ![](images/day5/day5_92_7_runLVSResult.png)
-
-Fill Pattern View |  Generated GDS File
+Mgmt_protect Layout showing vssd1 | Mgmt_protect Layout showing vssd1 Connection
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_93_7_layoutMgmtProtectvssd1.png) | ![](images/day5/day5_94_7_layoutMgmtProtectvssd1Connection.png)
 
-Fill Pattern View |  Generated GDS File
+Mgmt_protect_hv Verilog File Updated |  Mgmt_protect Verilog File Updated
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_95_7_mgmtProtectHVVerilogEdited.png) | ![](images/day5/day5_96_7_mgmtProtectVerilog.png)
 
