@@ -572,35 +572,37 @@ Mgmt_protect_hv Verilog File Updated |  Mgmt_protect Verilog File Updated
 
 ### Lab Exercise 8
 
-Fill Pattern View |  Generated GDS File
+Extraction from Digital PLL |  LVS Result
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_97_8_layoutDigitalPLLExtraction.png) | ![](images/day5/day5_98_8_runLVSResult.png)
 
-Fill Pattern View |  Generated GDS File
+exercise_8_comp.out |  exercise_8_comp.out showing Diode mismatch
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_99_8_execise8CompOutMismatch.png) | ![](images/day5/day5_100_8_execise8CompOutMismatchDiode.png)
 
-Fill Pattern View |  Generated GDS File
+exercise_8_comp.out with mismatch highlighted | LVS Result
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_101_8_execise8CompOutMismatchElement.png) | ![](images/day5/day5_102_8_runLVSResult.png)
 
-Fill Pattern View |  Generated GDS File
+LVS Result |  exercise_8_comp.out
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_103_8_runLVSResult2.png) | ![](images/day5/day5_104_8_exercise8CompOutDiode.png)
 
-Fill Pattern View |  Generated GDS File
-:-------------------------:|:-------------------------:
-![](images/day5/day5_105_8_grepdiode.png) | ![](images/day5/day5_106_8_layoutDiode.png)
+Diode present in digital_pll.mag file but not in digital_pll.v file
+![](images/day5/day5_105_8_grepdiode.png)
 
-Fill Pattern View |  Generated GDS File
+Diode in Layout |  zoomed view of Diode 
 :-------------------------:|:-------------------------:
-![](images/day5/day5_107_8_layoutDiodeNodeConnection.png) | ![](images/day5/day5_108_8_grepDiodeExercise8compOut.png)
+![](images/day5/day5_106_8_layoutDiode.png) | ![](images/day5/day5_107_8_layoutDiodeNodeConnection.png)
 
-Fill Pattern View |  Generated GDS File
+The picture below shows no matching diode in schematic.
+![](images/day5/day5_108_8_grepDiodeExercise8compOut.png)
+
+Diode added in the schematic |  LVS Result
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_109_8_digitalPLL_V_DiodeAdded.png) | ![](images/day5/day5_110_8_runLVSResult.png)
 
-Fill Pattern View |  Generated GDS File
+ exercise_8_comp.out  |  Generated GDS File
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_111_8_exercise8CompOut.png) | ![](images/day5/day5_112_8_layoutCellInstance_249_.png)
 
