@@ -602,46 +602,62 @@ Diode added in the schematic |  LVS Result
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_109_8_digitalPLL_V_DiodeAdded.png) | ![](images/day5/day5_110_8_runLVSResult.png)
 
- exercise_8_comp.out  |  Generated GDS File
+ exercise_8_comp.out  |  Cell instance _249_ in the layout
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_111_8_exercise8CompOut.png) | ![](images/day5/day5_112_8_layoutCellInstance_249_.png)
 
+
+Vertical node in Layout | Instance Connection in Layout
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_113_8_layoutGetNodeVertical.png) | ![](images/day5/day5_114_8_layoutInstanceConnection.png)
 
-:-------------------------:|:-------------------------:
-![](images/day5/day5_115_8_layoutVia3Painted.png) | ![](images/day5/day5_116_8_runLVSResult.png)
+Via3 painted in the layout
+![](images/day5/day5_115_8_layoutVia3Painted.png) | 
 
+LVS Result
+![](images/day5/day5_116_8_runLVSResult.png)
+
+Exercise_8_comp.out File showing instance _364_ | Layout showing instance _364_
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_117_8_exercise8compOut_364_.png) | ![](images/day5/day5_118_8_layoutInstance_364_.png)
 
+Layout showing instance _364_ zoomed | Layout showing instance _364_ CLK
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_119_8_layoutInstance_364_Zoomed.png) | ![](images/day5/day5_120_8_layoutInstance_364_Clk.png)
 
+Layout showing instance _328_ zoomed | Layout showing instance _328_ connections
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_121_8_layoutInstance_328_Zoomed.png) | ![](images/day5/day5_122_8_layoutInstance_328_Connection.png)
 
+Layout showing instance _328_ not connected to CLK | Layout showing instance _328_ connected to CLK
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_123_8_layoutInstance_328_UnconnectedShown.png) | ![](images/day5/day5_124_8_layoutInstance_328_connectedToClk.png)
 
+Layout showing instance _376_ zoomed | Layout showing instance _376_ connections
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_125_8_layoutInstance_376_Zoomed.png) | ![](images/day5/day5_126_8_layoutInstance_376_Connection.png)
 
+Layout showing instance _376_ full connections | Layout showing instance _376_ full connections zoomed
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_127_8_layoutInstance_376_Connection2.png) | ![](images/day5/day5_128_8_layoutInstance_376_Connection3.png)
 
+Layout showing instance _376_ connection disconnected at the white box | Layout showing instance _376_ connection 1
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_129_8_layoutInstance_376_EraseM1.png) | ![](images/day5/day5_130_8_layoutInstance_376_1.png)
 
+Layout showing instance _376_ connection 2 | LVS resultwith 1 unmatched pin error
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_131_8_layoutInstance_376_2.png) | ![](images/day5/day5_132_8_runLVSResult.png)
 
+Exercise_8_comp.out File showing mismatch | Layout showing ext_trim22
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_133_8_exercise8compOut.png) | ![](images/day5/day5_134_8_layoutExt_trim22.png)
 
+Digital_pll.v File showing ext_trim22 | Layout showing instance _335_ zoomed
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_135_8_digitalPLL_V_ext_trim22.png) | ![](images/day5/day5_136_8_layoutInstance_335_.png)
 
+Layout showing connection from instance _335_ to ext_trim22 | LVS result showing no error
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_137_8_layoutInstance_335_ConnectTo_ext_trim22.png) | ![](images/day5/day5_138_8_runLVSResult.png)
 
