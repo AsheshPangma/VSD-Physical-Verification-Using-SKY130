@@ -692,16 +692,18 @@ LVS is ran with netgen and the following output is obtained.
 ![](images/day5/day5_149_9_runLVSResult.png)
 
 Exercise_9_comp.out File | Layout showing Cell instance sky130_fd_pr__nfet_g5v0d10v50
+:-------------------------:|:-------------------------:
 ![](images/day5/day5_150_9_exercise9compOut.png) | ![](images/day5/day5_151_9_CellInstance.png)
 
-Editing the Cell instance sky130_fd_pr__nfet_g5v0d10v50 | Updated Cell instance sky130_fd_pr__nfet_g5v0d10v50
+Updating the Cell instance sky130_fd_pr__nfet_g5v0d10v50 | Updating Cell instance sky130_fd_pr__nfet_g5v0d10v50
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_151_9_CellInstance.png) | ![](images/day5/day5_152_9_CellInstanceEdited.png)
 
+Updated Cell instance sky130_fd_pr__nfet_g5v0d10v50 | LVS Result
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_153_9_CellInstanceEdited2.png) | ![](images/day5/day5_154_9_runLVSResult.png)
 
-
+At last, the layout and schematic for example_por is matched.
 
 # References
 
