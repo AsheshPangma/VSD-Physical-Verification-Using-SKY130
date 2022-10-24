@@ -657,31 +657,44 @@ Digital_pll.v File showing ext_trim22 | Layout showing instance _335_ zoomed
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_135_8_digitalPLL_V_ext_trim22.png) | ![](images/day5/day5_136_8_layoutInstance_335_.png)
 
-Layout showing connection from instance _335_ to ext_trim22 | LVS result showing no error
-:-------------------------:|:-------------------------:
-![](images/day5/day5_137_8_layoutInstance_335_ConnectTo_ext_trim22.png) | ![](images/day5/day5_138_8_runLVSResult.png)
+Layout showing connection from instance _335_ to ext_trim22 
+![](images/day5/day5_137_8_layoutInstance_335_ConnectTo_ext_trim22.png)
+
+LVS result showing no error
+![](images/day5/day5_138_8_runLVSResult.png)
 
 
 ### Lab Exercise 9
-                        
+                  
+Example_por extraction | Generating netlist from example_por schematic in xschem                  
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_139_9_layoutExample_porExtraction.png) | ![](images/day5/day5_140_9_schemeticExamplePorTbNetlist.png)
 
-:-------------------------:|:-------------------------:
-![](images/day5/day5_141_9_runLVSResult.png) | ![](images/day5/day5_142_9_exercise9CompOutError.png)
+LVS Result
+![](images/day5/day5_141_9_runLVSResult.png)
 
+exercise_9_comp.out File | Schematic updated (capacitor C1) in xschem
 :-------------------------:|:-------------------------:
-![](images/day5/day5_143_9_schematicEdit1.png) | ![](images/day5/day5_144_9_schematicEdit2.png)
+![](images/day5/day5_142_9_exercise9CompOutError.png) | ![](images/day5/day5_143_9_schematicEdit1.png)
 
+Schematic updated (capacitor C2) in xschem | Schematic updated (Resistor R3) in xschem
 :-------------------------:|:-------------------------:
-![](images/day5/day5_145_9_schematicEdit3.png) | ![](images/day5/day5_146_9_schematicEdit4.png)
+![](images/day5/day5_144_9_schematicEdit2.png) | ![](images/day5/day5_145_9_schematicEdit3.png)
 
+Schematic updated (Resistor R2) in xschem | Schematic updated (Resistor R1) in xschem
 :-------------------------:|:-------------------------:
-![](images/day5/day5_147_9_schematicEdit5.png) | ![](images/day5/day5_148_9_schematicSymbolEdit6.png)
+![](images/day5/day5_146_9_schematicEdit4.png) | ![](images/day5/day5_147_9_schematicEdit5.png)
 
-:-------------------------:|:-------------------------:
-![](images/day5/day5_149_9_runLVSResult.png) | ![](images/day5/day5_150_9_exercise9compOut)
+The following diagram is symbol for the schematic from where we generate netlist simply by pressing the "Netlist" button.
+![](images/day5/day5_148_9_schematicSymbolEdit6.png)
 
+LVS is ran with netgen and the following output is obtained.
+![](images/day5/day5_149_9_runLVSResult.png)
+
+Exercise_9_comp.out File | Layout showing Cell instance sky130_fd_pr__nfet_g5v0d10v50
+![](images/day5/day5_150_9_exercise9compOut.png) | ![](images/day5/day5_151_9_CellInstance.png)
+
+Editing the Cell instance sky130_fd_pr__nfet_g5v0d10v50 | Updated Cell instance sky130_fd_pr__nfet_g5v0d10v50
 :-------------------------:|:-------------------------:
 ![](images/day5/day5_151_9_CellInstance.png) | ![](images/day5/day5_152_9_CellInstanceEdited.png)
 
